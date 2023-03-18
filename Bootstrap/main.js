@@ -19,6 +19,7 @@ class MyHeader extends HTMLElement{
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="forums.html">Forums</a>
               </li>
+              
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Notes
@@ -28,6 +29,7 @@ class MyHeader extends HTMLElement{
                   <li><a class="dropdown-item" href="pdf.html">Pdfs</a></li>
                 </ul>
               <li class="nav-item">
+              
                 <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
               </li>
             </ul>

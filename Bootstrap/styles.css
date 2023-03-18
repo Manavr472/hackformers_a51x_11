@@ -2,3 +2,8 @@ body
 {
     font-family:  'Ubuntu', sans-serif;
 }
+.caro
+{
+    border: 1px solid green ;
+    margin-bottom: 350px;
+}
