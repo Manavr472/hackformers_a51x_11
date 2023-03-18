@@ -5,12 +5,13 @@ font-family: cursive;
 }
 
 header{
-    
-    background: #e64c05 ;
+    background: #3f0f02b6;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
 }
 
 ul{
-float: right;
+float: left;
 list-style-type: none;
 margin-top: 20px
 }
@@ -32,14 +33,8 @@ ul li a:hover{
 	color: #fff;
 }
 
-main{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image2.jpg);
+body{
+    background: linear-gradient(#e0b4a8a4,#e0b4a8a4),url("homepage.jpg");
+    background-repeat: no-repeat;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-
-title{
-    text-indent: 20%;
 }
