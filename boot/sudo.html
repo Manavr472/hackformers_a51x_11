@@ -20,8 +20,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script defer src="main.js"></script>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Exam Saviour</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -37,21 +38,32 @@
             <a class="nav-link active" aria-current="page" href="html/forums.html">Forums</a>
           </li>
           <li class="nav-item">
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
-            <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <!-- <li class="nav-item dropdown dropend"><a class="dropdown-item dropdown-toggle" href="html/videos.html">Videos</a> -->
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Video
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">HTML</a></li>
+                <li><a tabindex="-1" href="#">CSS</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                    <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                    <li class="dropdown-submenu">
+                      <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">3rd level dropdown</a></li>
+                        <li><a href="#">3rd level dropdown</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
-              <li><a class="dropdown-item" href="html/pdf.html">Pdfs</a></li>
-            </ul>
-          </div>
+              </ul>
+            </div>
           </li>
-        
+
           <li class="nav-item">
-          
+
             <a class="nav-link active" aria-current="page" href="html/contact.html">Contact Us</a>
           </li>
         </ul>
@@ -59,13 +71,14 @@
     </div>
   </nav>
   <script>
-    $(document).ready(function(){
-      $('.dropdown-submenu a.test').on("click", function(e){
+    $(document).ready(function () {
+      $('.dropdown-submenu a.test').on("click", function (e) {
         $(this).next('ul').toggle();
         e.stopPropagation();
         e.preventDefault();
       });
     });
-    </script>
+  </script>
 </body>
+
 </html>
