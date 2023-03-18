@@ -14,10 +14,10 @@ class MyHeader extends HTMLElement{
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index2.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="forums.html">Forums</a>
+                <a class="nav-link active" aria-current="page" href="src/html/forums.html">Forums</a>
               </li>
               
               <li class="nav-item dropdown">
@@ -25,12 +25,12 @@ class MyHeader extends HTMLElement{
                   Notes
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="videos.html">Videos</a></li>
-                  <li><a class="dropdown-item" href="pdf.html">Pdfs</a></li>
+                  <li><a class="dropdown-item" href="src/html/videos.html">Videos</a></li>
+                  <li><a class="dropdown-item" href="src/html/pdf.html">Pdfs</a></li>
                 </ul>
               <li class="nav-item">
               
-                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                <a class="nav-link active" aria-current="page" href="src/html/contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
