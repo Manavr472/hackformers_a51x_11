@@ -17,7 +17,7 @@ class MyHeader extends HTMLElement{
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="src/html/forums.html">Forums</a>
+                <a class="nav-link active" aria-current="page" href="/src/html/forums.html">Forums</a>
               </li>
               
               <li class="nav-item dropdown">
