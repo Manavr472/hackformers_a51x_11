@@ -30,7 +30,6 @@ class MyHeader extends HTMLElement{
                   <li><a class="dropdown-item" href="pdf.html">Pdfs</a></li>
                 </ul>
               <li class="nav-item">
-              
                 <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
               </li>
             </ul>
