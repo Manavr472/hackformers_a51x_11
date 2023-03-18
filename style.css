@@ -5,10 +5,8 @@ font-family: cursive;
 }
 
 header{
-background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image2.jpg);
-height: 100vh;
-background-size: cover;
-background-position: center;
+    
+    background: #e64c05 ;
 }
 
 ul{
@@ -34,53 +32,14 @@ ul li a:hover{
 	color: #fff;
 }
 
-.main{
-	margin-right: 40px;
-}
-
-.title{
-	position: absolute;
-	text-align: center;
-	transform: translate(-50%,-50%);
-}
-
-.title h1{
-	color: #fff;
-	font-size: 80px;
-	font-style: bold;
-	padding: 5px 30px;
-	border: 3px solid transparent;
-	transition: 0.45s ease;
+main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 
-.title h1{
-	color: #fff;
-	font-size: 60px;
-	font-style: bold;
-	padding: 5px 30px;
-	border: 3px solid transparent;
-	background-color: darkgreen;
-	transition: 0.45s ease;
-}
-
-.title h1:hover{
-	background-color: white;
-	color: green;
-}
-
-.moto {
-	position: absolute;
-	text-align: center;
-}
-.moto h3{
-	color: #fff;
-	font-size: 20px;
-	font-style: italic;
-	padding: 3px 9px;
-	border: 1px solid transparent;
-}
-.moto h3:hover{
-	background-color: #fff;
-	color:green;
+title{
+    text-indent: 20%;
 }
