@@ -17,7 +17,7 @@ class MyHeader extends HTMLElement{
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/src/html/forums.html">Forums</a>
+                <a class="nav-link active" aria-current="page" href="html/forums.html">Forums</a>
               </li>
               
               <li class="nav-item dropdown">
@@ -25,12 +25,12 @@ class MyHeader extends HTMLElement{
                   Notes
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="src/html/videos.html">Videos</a></li>
-                  <li><a class="dropdown-item" href="src/html/pdf.html">Pdfs</a></li>
+                  <li><a class="dropdown-item" href="html/videos.html">Videos</a></li>
+                  <li><a class="dropdown-item" href="html/pdf.html">Pdfs</a></li>
                 </ul>
               <li class="nav-item">
               
-                <a class="nav-link active" aria-current="page" href="src/html/contact.html">Contact Us</a>
+                <a class="nav-link active" aria-current="page" href="html/contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
