@@ -16,4 +16,32 @@ body
 .mb-0{
     text-align: center;
 }
+.collaps{
+color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	font-style: bold;
+	outline: none;
+	font-size: 25px;}
 
+    .collaps:hover {
+        background-color: rgba(108, 150, 232, 0.649);
+      }
+      
+      .collaps:after {
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f1f1f1;
+      }
