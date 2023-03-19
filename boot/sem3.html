@@ -2,191 +2,249 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="main.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+    <script defer src="main.js"></script>
 </head>
 
 <body>
-  <my-header></my-header>
-  <div class="font">
-    <h1>SEMESTER 3</h1>
-  </div>
-  <div class="list-group">
-      <a href="#em1" class="list-group-item list-group-item-action active">Engg Maths 1</a>
-      <a href="#ep1" class="list-group-item list-group-item-action">Engg Phy</a>
-      <a href="#ec1" class="list-group-item list-group-item-action">Engg Chem</a>
-      <a href="#mech1" class="list-group-item list-group-item-action">Engg Mech</a>
-      <a href="#bee" class="list-group-item list-group-item-action">BEE</a>
-      
-  </div>
-  <div style="margin-top: 10%;">
-  <div id="em1" style="text-align: center;"><h1>Engineering Mathematics</h1>
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Complex Number</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#hp">Complex Number</button>
-      <div id="hp" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Complex Number</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Complex Number</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Complex Number</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-  </div>
-
-  <div id="ep1" style="text-align: center;"><h1>Engineering Physics</h1>
-      <button class="collaps" data-toggle="collapse" data-target="#dif">phy1</button>
-      <div id="dif" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#">phy2</button>
-      <div id="dif" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#dif">phy3</button>
-      <div id="dif" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#dif">phy4</button>
-      <div id="dif" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#dif">phy5</button>
-      <div id="dif" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#dif">phy6</button>
-      <div id="dif" class="collapse">
-          <!-- iframes -->
-      </div>
-
-  </div>
-
-  <div id="ec1" style="text-align: center;"><h1>Engineering Chemistry</h1>
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Chem1</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Chem2</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Chem3</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-      
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Chem4</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Chem5</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">Chem6</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-  </div>
-
-  <div id="mech1" style="text-align: center;"><h1>Engineering Mechanics</h1>
-      <button class="collaps" data-toggle="collapse" data-target="#cn">mech1</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">mech2</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">mech3</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">mech4</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">mech5</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">mech6</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-  </div>
-
-  <div id="bee" style="text-align: center;"><h1>Basic Electrical Engineering</h1>
-      <button class="collaps" data-toggle="collapse" data-target="#cn">bee1</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-      <button class="collaps" data-toggle="collapse" data-target="#cn">bee2</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">bee3</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">bee4</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">bee5</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
-
-      <button class="collaps" data-toggle="collapse" data-target="#cn">bee6</button>
-      <div id="cn" class="collapse">
-          <!-- iframes -->
-      </div>
+    <my-header></my-header>
+    <div  style="margin: 10px;text-align:center;">
+        <h1>SEMESTER 3</h1>
     
-  </div>
+      </div>
+    <div class="list-group">
+        <a href="#em3" class="list-group-item list-group-item-action active">Engg Maths 3</a>
+        <a href="#dsa" class="list-group-item list-group-item-action">Data Structure</a>
+        <a href="#dsgt" class="list-group-item list-group-item-action">Discrete Mathematics</a>
+        <a href="#dlcoa" class="list-group-item list-group-item-action">Digital Logic and Computer Architechture</a>
+        <a href="#cg" class="list-group-item list-group-item-action">Computer Graphics</a>
+        
+    </div>
+    <div style="margin-top: 10%;">
+    <div id="em1" style="text-align: center;"><h1>Engineering Mathematics 3</h1>
+        <button class="collaps" data-toggle="collapse" data-target="#lt">Laplace Transform</button>
+        <div id="lt" class="collapse">
+             <!-- ifarme -->
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/vELXJPaddpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/bwli4Qxd01M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/ZouKvn4LcqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/MMHOdCqj9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/mc0MyV9VO_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#ilt">Inverse Laplace Transform</button>
+        <div id="ilt" class="collapse">
+             <!-- ifarme -->
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/9cDLc82bexM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/EAeCzFQGzRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/SqLRDAuupR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/3jop4VRQ0UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="460" height="315" src="https://www.youtube.com/embed/cDbjDKpi0Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#fs">Fourier Series</button>
+        <div id="fs" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKS7ZMKnbPrQHf0tf29cSp4xkLVG5xLWF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKS7ZMKnbPrT626fKSPxJl8gpwsYotJtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             
+         </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#cv">Complex Variables</button>
+        <div id="cv" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKS7ZMKnbPrTe_ayBsypP_36cH34NOylM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </div>
+        
+        <button class="collaps" data-toggle="collapse" data-target="#st">Statistics</button>
+        <div id="st" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/7p4FSDCRJHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#pr">Probability</button>
+        <div id="pr" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKS7ZMKnbPrRUzxQuteRWEuBEkSW0_-3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div id="dsa" style="text-align: center;"><h1>Data Structure</h1>
+        <button class="collaps" data-toggle="collapse" data-target="#int">Introduction to DSA </button>
+        <div id="int" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/xLetJpcjHS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#sq">Stack An Queues</button>
+        <div id="sq" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLBlnK6fEyqRgWh1emltdMOz8O2m5X3YYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/va_6RmSrKCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#ll">Linked List</button>
+        <div id="ll" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/oAja8-Ulz6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#tr">Tree</button>
+        <div id="tr" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLkIpj7mL1E7uSElwIoJpgBnOQ8RJrYKzX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#gr">Graph</button>
+        <div id="gr" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLqM7alHXFySEaZgcg7uRYJFBnYMLti-nh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#ss">Searching Sorting</button>
+        <div id="ss" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/8TVaEGeaGGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div id="dsgt" style="text-align: center;"><h1>Discrete Mathematics</h1>
+        <button class="collaps" data-toggle="collapse" data-target="#lc">Logic</button>
+        <div id="lc" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLEjRWorvdxL6xpvIHb-cN8VrRi2B2bzj2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#rf">Relations And Functions</button>
+        <div id="rf" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLEjRWorvdxL6xpvIHb-cN8VrRi2B2bzj2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#pl">Posets and lattice</button>
+        <div id="pl" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLq76ktDFTJEJ76g0gOon9x7sPnEk2BZ7n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </div>
+        
+        <button class="collaps" data-toggle="collapse" data-target="#ci">Counting</button>
+        <div id="ci" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/xaxt-zNlRRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/ZsA-Uys18so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#as">Algebraic Structure</button>
+        <div id="as" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5Dqs90qDljWYE8YKJTeJvlmePixSLtDK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#gt">Graph Theory</button>
+        <div id="gt" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLU6SqdYcYsfLV24T0XVb3z3mjl8QG0EBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div id="dlcoa" style="text-align: center;"><h1>Digital Logic and Computer Architechture</h1>
+        <button class="collaps" data-toggle="collapse" data-target="#cn">Computer Fundamentals</button>
+        <div id="cn" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxCzCOWd7aiFOet6KEEqDff1aXEGLdUzn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#daa">Data Representation and Arithmetic algorithms </button>
+        <div id="daa" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#poa">Processor Organization and Architecture</button>
+        <div id="poa" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#cd">Control Unit Design</button>
+        <div id="cd" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0s3O6GgLL5es3eh6-E4JVnymMqZKRAHH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#mo">Memory Organization</button>
+        <div id="mo" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/rzVdTHLdC44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#pap">Principles of Advanced Processor and Buses</button>
+        <div id="pap" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/1q2JKX3qg-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/qgbt9mrQ7Gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="cg" style="text-align: center;"><h1>Computer Graphics</h1>
+        <button class="collaps" data-toggle="collapse" data-target="#icg">Introduction To Computer Graphics</button>
+        <div id="icg" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/l95BztHFk5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <button class="collaps" data-toggle="collapse" data-target="#op">Output Primitives</button>
+        <div id="op" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLhu3IijXzE97tSbr_xv8FtphrF6g3GOOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#2d">Two Dimesnsional Geometric Transformation</button>
+        <div id="2d" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/LJA8HlPfyQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#cn">Two Dimesnsional viewing and clipping</button>
+        <div id="cn" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/rqnFbvv-L3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#cn">Three Dimesnsional Geometric Transformation</button>
+        <div id="cn" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/videoseries?list=PLzV1XvvQhxNP3GyLUAVQ10wRkK-Q7dp4m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <button class="collaps" data-toggle="collapse" data-target="#cn">Visible Surface Detection</button>
+        <div id="cn" class="collapse">
+            <!-- iframes -->
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/1aSYTBLAKBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
 </body>
+</html>
