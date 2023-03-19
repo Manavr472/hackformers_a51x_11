@@ -1,7 +1,7 @@
 var defaultThreads = [
     {
         id: 1,
-        title: "Thread 1",
+        title: "Where can we find all the necessary",
         author: "Aaron",
         date: Date.now(),
         content: "Thread content",
@@ -20,7 +20,7 @@ var defaultThreads = [
     },
     {
         id: 2,
-        title: "Thread 2",
+        title: "How to study one night before the exam",
         author: "Aaron",
         date: Date.now(),
         content: "Thread content 2",
