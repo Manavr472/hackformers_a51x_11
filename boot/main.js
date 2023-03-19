@@ -10,7 +10,8 @@ class MyHeader extends HTMLElement{
   <link rel="stylesheet" href="styles.css">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Exam Saviour</a>
+          <a class="navbar-brand" href="index.html"><img src="src/logo.png" width="40" 
+          height="40"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
